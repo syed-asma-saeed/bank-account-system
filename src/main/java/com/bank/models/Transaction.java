@@ -7,7 +7,7 @@ public class Transaction {
     private double amount;
     private LocalDateTime timestamp;
 
-    public void Transaction(String type, double amount){
+    public Transaction(String type, double amount){
         this.type = type;
         this.amount = amount;
         this.timestamp = LocalDateTime.now();
@@ -21,7 +21,7 @@ public class Transaction {
         return amount;
     }
 
-    public LocalDateTime getTime(){
+    public LocalDateTime getTimestamp(){
         return timestamp;
     }
 
