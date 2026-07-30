@@ -4,9 +4,6 @@ import com.bank.exceptions.InsufficientFundsException;
 import com.bank.exceptions.InvalidAmountException;
 import com.bank.models.Transaction;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class SavingsAccount extends Account{
     private static final double MIN_BALANCE = 1000.0;
 
