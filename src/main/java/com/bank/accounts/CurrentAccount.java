@@ -10,9 +10,8 @@ import java.util.List;
 public class CurrentAccount extends Account{
     private double overdraftlimit = 10000.0;
 
-    public CurrentAccount(String accountId, String ownerName, double initialBalance, double overdraftlimit){
+    public CurrentAccount(String accountId, String ownerName, double initialBalance){
         super(accountId, ownerName, initialBalance);
-        this.overdraftlimit = overdraftlimit;
     }
 
 

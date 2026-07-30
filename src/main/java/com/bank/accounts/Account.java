@@ -13,7 +13,7 @@ public abstract class Account {
     protected double balance;
     protected List<Transaction> transactions;
 
-    Account(String accountId, String ownerName, double initialBalance) {
+    protected Account(String accountId, String ownerName, double initialBalance) {
         this.accountId = accountId;
         this.ownerName = ownerName;
         this.balance = initialBalance;
